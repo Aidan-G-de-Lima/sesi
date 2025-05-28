@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 450;
+  font-style: normal;
+}
+
+
+body{
+    background-image: linear-gradient(to bottom right, #b31d1d 10%, #0c0c16 80%)  ;
+    background-repeat: no-repeat;
+    height: 60em;
+}
+nav ul{
+    list-style: none;
+    background-color: #ED1C24;
+    text-align: center;
+    height: 40px;
+    padding: 40px;
+  
+}
+nav li{
+    display: inline;
+    margin: 10px;
+    
+}
+
+#cima li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    
+
+}
+
+.palestrantes{
+    display: flex;
+    align-items: center;
+    margin: 200px ;
+    padding: 90px 200px;
+    height: 3em;
+    width: 2em;
+    background-image: linear-gradient(to bottom right, #fa0303 10%, #0c0c16 80%);
+    background-repeat: no-repeat;
+    justify-content: center;
+    
+}
+.imagem img{
+    max-width: 200px;
+   
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Palestras</title>
+  <link rel="stylesheet" href="palestra.css">
+</head>
+
+<body>
+
+  <nav id="cima">
+    <ul>
+      <li><a href="index.html">Começo</a></li>
+      <li><a href="palestras.html">Cadastre-se como palestrante</a></li>
+      <li><a href="mapa.html">Mapa da Escola</a></a></li>
+
+      <h1>Antes de continuar cadastre-se</h1>
+    </ul>
+  </nav>
+  <div class="titulo">
+    <h2>Cadastro de Palestras</h2>
+  </div>
+  <div class="palestrantes">
+    <form action="cadastrar_palestra.php" method="post">
+      <label>Palestrante: <input type="text" name="palestrante"></label><br>
+      <label>Nome da palestra: <input type="text" name="nome"></label><br>
+      <label>Descrição:<textarea name="descricao"></textarea></label><br>
+      <button type="submit">Cadastrar</button>
+    </form>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Participantes</title>
+  <link rel="stylesheet" href="participantes.css">
+</head>
+
+<body>
+  <nav id="cima">
+    <ul>
+      <li><a href="index.html">Começo</a></li>
+      <li><a href="palestras.html">Cadastre-se como palestrante</a></li>
+      <li><a href="mapa.html">Mapa da Escola</a></a></li>
+
+      <h1>Antes de continuar cadastre-se</h1>
+    </ul>
+  </nav>
+
+
+  <div class="titulo">
+    <h2>Cadastro de Participantes</h2>
+  </div>
+  <div class="participantes">
+    <form action="cadastrar_participante.php" method="post">
+      <label><input placeholder="Nome completo" name="nome"></label><br>
+      <label><input placeholder="Idade" name="idade"></label><br>
+      <label><input placeholder="Telefone" name="telefone"></label><br>
+      </select></label>
+      <div class="tipo">
+        <label>Tipo:
+          <select name="tipo" id="tipo" onchange="mostrarCampoExtra()">
+      </div>
+      <option>Aluno</option>
+      <option>Responsável</option>
+      </select>
+      </label><br>
+      <button type="submit">Cadastrar</button>
+    </form>
+  </div>
+</body>
+
+</html>
