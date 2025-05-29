@@ -8,16 +8,16 @@
 }
 
 body{
-    background-image: linear-gradient(to bottom right, #1d1fb3 10%, #0c0c16 80%)  ;
+    background-image: linear-gradient(to bottom right, #b31d1d 10%, #0c0c16 80%)  ;
     background-repeat: no-repeat;
     height: 60em;
 }
 nav ul{
     list-style: none;
-    background-color: #d11313;
+    background-color: #ED1C24;
     text-align: center;
-    height: 40px;
-    padding: 30px;
+    height: 20px;
+    padding: 20px;
 }
 nav li{
     display: inline;
@@ -34,7 +34,7 @@ nav li{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 10vh;
+    height: 25vh;
     
 
 }
@@ -42,15 +42,28 @@ nav li{
 .participantes{
     display: flex;
     align-items: center;
-    margin: 200px ;
+    margin: 0 auto ;
     padding: 90px 200px;
     height: 3em;
     width: 2em;
-    background-image: linear-gradient(to bottom right, #1d1fb3 10%, #0c0c16 80%);
+    background-image: linear-gradient(to bottom right, #d11313 10%, #0c0c16 80%);
     background-repeat: no-repeat;
     justify-content: center;
     
 }
 .tipo{
     color: #ffffff;
+}
+footer{
+    background-color:rgb(170, 36, 36) ;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    }
+.imagem img{
+    width: 200px;
+    margin-top: -35px;
 }

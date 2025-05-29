@@ -10,10 +10,13 @@
 <body>
   <nav id="cima">
     <ul>
+      <div class="imagem">
+        <img src="img/sesi-logo.png" alt="sesi">
+        </div>
       <li><a href="index.html">Começo</a></li>
       <li><a href="palestras.html">Cadastre-se como palestrante</a></li>
       <li><a href="mapa.html">Mapa da Escola</a></a></li>
-
+      
       <h1>Antes de continuar cadastre-se</h1>
     </ul>
   </nav>
@@ -35,10 +38,25 @@
       <option>Aluno</option>
       <option>Responsável</option>
       </select>
-      </label><br>
+    </label><br>
+    <div id="rm" style="display:none;">
+      <label>RM: <input type="text" name="rm"></label><br>
+    </div>
+    <div id="cpf" style="display:none;">
+      <label>CPF: <input type="text" name="cpf"></label><br>
+    </div>
       <button type="submit">Cadastrar</button>
     </form>
   </div>
+  <footer>
+    <h1>Contate-nos</h1>
+    <h2 id="rodape1">
+        <p>Nosso E-mail: EscolaSesi@gmail.com</p>
+    </h2>
+    <h2 id="rodape2">
+        <p>Numero de telefone: (55) 23 9885-2214</p>
+    </h2>
+  </footer>
 </body>
 
 </html>

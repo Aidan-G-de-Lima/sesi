@@ -4,22 +4,22 @@
   font-family: "Fira Sans", sans-serif;
   font-weight: 450;
   font-style: normal;
+   margin: 0;
+  padding: 0;
 }
 
 
 body{
     background-image: linear-gradient(to bottom right, #b31d1d 10%, #0c0c16 80%)  ;
     background-repeat: no-repeat;
-    height: 57.5em;
+    height: 50.5em;
 }
 nav ul{
     list-style: none;
-    background-color: #d11313;
+    background-color: #ED1C24;
     text-align: center;
-    height: 40px;
-    padding: 40px;
-    width: 113em;
-    
+    height: 20px;
+    padding: 20px;
 }
 nav li{
     display: inline;
@@ -36,16 +36,28 @@ nav li{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 10vh;
+    height: 15vh;
     
 
 }
 .imagem{
-    
-}
-.imagem img{
+    max-width: 200px;
+    margin-top: -35px;
+}   
+.mapa_escola img{
     display: flex;
     text-align: center;
     margin: 0 auto;
     width: 30em;
 }
+
+
+footer{
+    background-color:rgb(170, 36, 36) ;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    }
